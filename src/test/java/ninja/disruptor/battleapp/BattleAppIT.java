@@ -15,7 +15,7 @@ public class BattleAppIT {
 
     @Test
     public void shouldReturnDan() {
-        String expectedToContain = "dan";
+        String expectedToContain = "Dan";
         String response = provider
                 .target()
                 .request()
